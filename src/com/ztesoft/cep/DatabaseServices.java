@@ -35,7 +35,7 @@ public class DatabaseServices implements Runnable {
 		public abstract void CallBackHandler(JdbcTemplate jdbc, Object[] params);
 	};
 
-	public xxx UpdateLoadConfigAndCreateAllTableCallBack extends DatabaseCallBack {
+	public class UpdateLoadConfigAndCreateAllTableCallBack extends DatabaseCallBack {
 
 		@Override
 		public void CallBackHandler(JdbcTemplate jdbc, Object[] params) {
